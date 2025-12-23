@@ -1,0 +1,19 @@
+# CourseHub
+initgit
+add
+README.mdgit
+commit
+-m
+first commit
+git
+branch
+-M
+maingit
+remote
+add
+origin
+https://github.com/ujjsingh2005-byte/CourseHub.gitgit
+push
+-u
+origin
+mai

@@ -49,6 +49,10 @@ const LecturePage = ({ courseId, enrolled }) => {
                     controls
                     className="w-full rounded-lg shadow-md"
                     src={lec.Video}
+                    preload="metadata"
+                    onError={(e) => console.error("Video load error:", e)}
+                    onLoadStart={() => console.log("Video load started")}
+                    onCanPlay={() => console.log("Video can play")}
                   >
                     Your browser does not support the video tag.
                   </video>

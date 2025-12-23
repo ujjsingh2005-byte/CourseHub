@@ -374,7 +374,8 @@ const uploadlecture = async (req, res) => {
 
     const result = await uploadToCloudinary(
       req.file.buffer,
-      "course_videos"
+      "course_videos",
+      "video"
     );
 
     const lecture = await LectureModel.create({
